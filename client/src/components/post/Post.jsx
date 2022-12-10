@@ -73,7 +73,7 @@ export default function Post({ post }) {
               onClick={likeHandler}
               alt=""
             />
-            <span className="postLikeCounter">{like} people like it</span>
+            <span className="postLikeCounter">{like} people like this</span>
           </div>
           <div className="postBottomRight">
             <span className="postCommentText">{post.comment} comments</span>
